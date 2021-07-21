@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "https://example.com/app-name/schemas/actions/get-currency/input.json",
+  "title": "Use a descriptive title here such as Get Currency.",
+  "description": "Add description here such as Gets details for a currency definition.",
+  "type": "object",
+  "properties": {
+    "repositoryId": {
+      "type": "string",
+      "description": "The id of the item that contains the details."
+    }
+  },
+  "required": [
+    "repositoryId"
+  ],
+  "example": {
+    "repositoryId": "currency10001"
+  }
+}
